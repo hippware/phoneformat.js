@@ -1,6 +1,6 @@
 (function(exports){
 var COMPILED = !0, goog = goog || {};
-goog.global = this;
+goog.global = global;
 goog.isDef = function(a) {
   return void 0 !== a;
 };
